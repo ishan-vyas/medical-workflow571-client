@@ -1,0 +1,31 @@
+.main_info_container{
+  /* background-color : red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 3%;
+}
+
+.patient_pic, .pat_inf{
+  align-self: center;
+}
+
+.data_title{
+  justify-self: center;
+}
+
+.data_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10%;
+  padding-top: 3%;
+}
+
+.CTImg{
+  width: 10%;
+}
+/* .data_header{
+  justify-self: center;
+} */
