@@ -136,7 +136,7 @@ const PatientInfo = React.forwardRef((props, ref) => {
       const info = {
         data: ctc
       }
-      Axios.get("http://localhost:3001/api/get/patient/treatment", {params: info}).then((response) => {
+      Axios.get("https://medical-workflow571.herokuapp.com/api/get/patient/treatment", {params: info}).then((response) => {
       console.log(response.data);
       setTreatmentPlan(response.data);
       setShowTreatment(true);
